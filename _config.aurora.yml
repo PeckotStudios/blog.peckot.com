@@ -171,5 +171,10 @@ aurora_bot:
 #! ---------------------------------------------------------------
 injects:
   scripts:
-    - <script src="https://blog.peckot.com/js.inject.js"></script>
+    - |-
+      <script type="text/javascript">
+        document.getElementsByTagName('img').forEach(img => {
+          img.setAttribute('draggable', 'false');
+        });
+      </script>
   css:
