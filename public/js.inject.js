@@ -1,1 +1,3 @@
-document.querySelector('img').setAttribute('draggable', 'false');
+document.getElementsByTagName('img').forEach(img => {
+    img.setAttribute('draggable', 'false');
+});
