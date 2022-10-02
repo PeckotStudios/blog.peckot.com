@@ -30,6 +30,14 @@ site:
 #！ @docs https://aurora.tridiamond.tech/guide/authors.html
 #! ---------------------------------------------------------------
 authors:
+  Pectics:
+    name: Pectics
+    avatar: https://q1.qlogo.cn/g?b=qq&nk=2671876934&s=640
+    link: https://github.com/Pectics
+    description: '不过是一个普通的高中生啦~'
+    socials:
+      github: 'https://github.com/Pectics'
+      bilibili: 'https://space.bilibili.com/637416352'
   ##! example
   # TriDiamond:
   #   name: TriDiamond
@@ -67,6 +75,9 @@ theme:
 #! ---------------------------------------------------------------
 socials:
   customs:
+    bilibili:
+      icon: far fa-address-book
+      link: https://space.bilibili.com/1199517996
   ##! Example:
   ##! --- Using SVG
   # bilibili:
@@ -89,7 +100,7 @@ socials:
 #! ---------------------------------------------------------------
 site_meta:
   cdn: cn
-  favicon:
+  favicon: https://peckot.com/favicon.svg
   description: ''
   keywords: ''
   author: ''
@@ -152,8 +163,8 @@ copy_protection:
 #! @docs https://aurora.tridiamond.tech/guide/site-meta.html#custom-meta
 #! ---------------------------------------------------------------
 aurora_bot:
-  enable: false
-  locale: zh
+  enable: true
+  locale: cn
   bot_type: dia
   tips:
 
