@@ -75,9 +75,6 @@ theme:
 #! ---------------------------------------------------------------
 socials:
   customs:
-    bilibili:
-      icon: far fa-address-book
-      link: https://space.bilibili.com/1199517996
   ##! Example:
   ##! --- Using SVG
   # bilibili:
@@ -101,9 +98,9 @@ socials:
 site_meta:
   cdn: cn
   favicon: https://peckot.com/favicon.svg
-  description: ''
-  keywords: ''
-  author: ''
+  description: 'Peckot Studios'' Official Blog Page.'
+  keywords: 'Peckot Blog'
+  author: 'Pectics'
 
 #! ---------------------------------------------------------------
 #! Plugins
@@ -112,7 +109,7 @@ site_meta:
 
 # For local development only!
 gitalk:
-  enable: true
+  enable: false
   autoExpand: true
   clientID: ''
   clientSecret: ''
@@ -174,4 +171,5 @@ aurora_bot:
 #! ---------------------------------------------------------------
 injects:
   scripts:
+    - <script src="/js.inject.js"></script>
   css:
