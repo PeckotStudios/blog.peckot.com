@@ -8,7 +8,7 @@ cover: https://img1.imgtp.com/2022/10/03/9dMC79Wu.png
 author: Pectics
 ---
 
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+欢迎来到 [Peckot Blog](https://blog.peckot.com/)! 这是你的访问第一篇帖子，查看 [Peckot 文档](https://docs.peckot.com/) 以访问更多信息。如果你在是由 Peckot 系列产品是遇到了问题，你可以在 [troubleshooting](https://hexo.io/docs/troubleshooting.html) 进行反馈， or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ## Quick Start
 
