@@ -144,7 +144,7 @@ gitalk:
   # PeckotStudios0627.gitalk
   id: uid
   language: zh-CN
-  distractionFreeMode: true
+  distractionFreeMode: false
   recentComment: true
   proxy: ''
 
