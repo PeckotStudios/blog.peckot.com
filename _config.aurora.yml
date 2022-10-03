@@ -30,7 +30,7 @@ site:
 #！ @docs https://aurora.tridiamond.tech/guide/authors.html
 #! ---------------------------------------------------------------
 authors:
-  'Peckot Blog':
+  'Peckot Bloggers':
     name: Peckot Bloggers
     avatar: https://peckot.com/favicon.svg
     link: https://github.com/orgs/Peckot-Studios/teams/peckot-bloggers
@@ -133,7 +133,7 @@ site_meta:
   favicon: https://peckot.com/favicon.svg
   description: 'Peckot Studios'' Official Blog Page.'
   keywords: 'Peckot Blog'
-  author: 'Peckot Blog'
+  author: 'Peckot Bloggers'
 
 #! ---------------------------------------------------------------
 #! Plugins
