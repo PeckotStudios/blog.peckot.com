@@ -12,12 +12,15 @@ site:
   subtitle: Peckot Studios
   author: Peckot Blog
   nick: 无求一生光辉，唯望斗志不断。
-  description: A new online remarkable blog.
-  link: '/'
+  description: Peckot Blog 的博文主要编写团队
+  link: 'https://github.com/orgs/Peckot-Studios/teams/peckot-bloggers'
   language: cn
   multi_language: false
   logo: https://peckot.com/peckot.svg
   avatar: https://peckot.com/favicon.svg
+  socials:
+    github: 'https://github.com/orgs/Peckot-Studios/teams/peckot-bloggers'
+    bilibili: 'https://space.bilibili.com/1199517996'
   beian:
     number: '渝ICP备2022006862号'
     link: 'https://beian.miit.gov.cn/'
@@ -30,14 +33,6 @@ site:
 #！ @docs https://aurora.tridiamond.tech/guide/authors.html
 #! ---------------------------------------------------------------
 authors:
-  Blog-Author:
-    name: Blog-Author
-    avatar: https://peckot.com/favicon.svg
-    link: https://github.com/orgs/Peckot-Studios/teams/peckot-bloggers
-    description: 'Peckot Blog 的博文主要编写团队'
-    socials:
-      github: 'https://github.com/orgs/Peckot-Studios/teams/peckot-bloggers'
-      bilibili: 'https://space.bilibili.com/1199517996'
   Pectics:
     name: Pectics
     avatar: https://q1.qlogo.cn/g?b=qq&nk=2671876934&s=640
@@ -133,7 +128,7 @@ site_meta:
   favicon: https://peckot.com/favicon.svg
   description: 'Peckot Studios'' Official Blog Page.'
   keywords: 'Peckot Blog'
-  author: Peckot-Bloggers
+  author: Peckot Bloggers
 
 #! ---------------------------------------------------------------
 #! Plugins
