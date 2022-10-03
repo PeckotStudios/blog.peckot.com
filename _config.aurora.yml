@@ -166,7 +166,7 @@ valine:
   visitor: true
   lang: zh-CN
   avatarForce: true
-  meta: ['你的昵称', '邮箱地址']
+  meta: ['nick', 'mail']
   requiredFields: []
   admin: 'Pectics'
   recentComment: true
