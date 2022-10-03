@@ -140,7 +140,7 @@ gitalk:
   clientSecret: '6584b26d66ad355b123f5ca82655b9e82abf36ce'
   repo: 'blog.peckot.com-comments'
   owner: 'Peckot-Studios'
-  admin: ['Pectics', 'BillZhong2008']
+  admin: ['BillZhong2008']
   # PeckotStudios0627.gitalk
   id: pathname
   language: zh-CN
