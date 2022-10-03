@@ -57,14 +57,18 @@
 
 "@types/cheerio@^0.22.8":
   version "0.22.31"
-  resolved "https://registry.yarnpkg.com/@types/cheerio/-/cheerio-0.22.31.tgz#b8538100653d6bb1b08a1e46dec75b4f2a5d5eb6"
+  resolved "https://registry.npmjs.org/@types/cheerio/-/cheerio-0.22.31.tgz"
   integrity sha512-Kt7Cdjjdi2XWSfrZ53v4Of0wG3ZcmaegFXjMmz9tfNrZSkzzo36G0AL1YqSdcIA78Etjt6E609pt5h1xnQkPUw==
   dependencies:
     "@types/node" "*"
 
 "@types/node@*":
   version "18.8.0"
+<<<<<<< HEAD
+  resolved "https://registry.npmjs.org/@types/node/-/node-18.8.0.tgz"
+=======
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.8.0.tgz#b8ee8d83a99470c0661bd899417fcd77060682fe"
+>>>>>>> 48d9129726cf29fd62eb5f3a2aac2e64e8eb6d71
   integrity sha512-u+h43R6U8xXDt2vzUaVP3VwjjLyOJk6uEciZS8OSyziUQGOwmk+l+4drxcsDboHXwyTaqS1INebghmWMRxq3LA==
 
 "@vue/compiler-core@3.2.40":
@@ -349,7 +353,7 @@ chalk@^4.0.0, chalk@^4.0.2:
 
 cheerio@0.22.0:
   version "0.22.0"
-  resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-0.22.0.tgz#a9baa860a3f9b595a6b81b1a86873121ed3a269e"
+  resolved "https://registry.npmjs.org/cheerio/-/cheerio-0.22.0.tgz"
   integrity sha512-8/MzidM6G/TgRelkzDG13y3Y9LxBjCb+8yOEZ9+wwq5gVF2w2pV0wmHvjfT0RvuxGyR7UEuK36r+yYMbT4uKgA==
   dependencies:
     css-select "~1.2.0"
@@ -448,6 +452,12 @@ connect@^3.7.0:
     parseurl "~1.3.3"
     utils-merge "1.0.1"
 
+<<<<<<< HEAD
+core-js@^3.6.5:
+  version "3.25.4"
+  resolved "https://registry.npmjs.org/core-js/-/core-js-3.25.4.tgz"
+  integrity sha512-JDLxg61lFPFYQ7U0HKoyKwVUV63VbbVTb/K73Yf+k4Mf4ZBZxCjfyrWZjTk1ZM7ZrgFSqhSIOmuzYAxG2f/reQ==
+=======
 core.js@^0.4.2:
   version "0.4.2"
   resolved "https://registry.npmjs.org/core.js/-/core.js-0.4.2.tgz"
@@ -455,6 +465,7 @@ core.js@^0.4.2:
   dependencies:
     underscore "*"
     underscore.string "*"
+>>>>>>> 48d9129726cf29fd62eb5f3a2aac2e64e8eb6d71
 
 cross-spawn@^7.0.0:
   version "7.0.3"
@@ -612,6 +623,8 @@ dom-serializer@^1.0.1:
     domhandler "^4.2.0"
     entities "^2.0.0"
 
+<<<<<<< HEAD
+=======
 dom-serializer@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz"
@@ -621,6 +634,7 @@ dom-serializer@^2.0.0:
     domhandler "^5.0.2"
     entities "^4.2.0"
 
+>>>>>>> 48d9129726cf29fd62eb5f3a2aac2e64e8eb6d71
 domelementtype@1, domelementtype@^1.3.0, domelementtype@^1.3.1:
   version "1.3.1"
   resolved "https://registry.npmjs.org/domelementtype/-/domelementtype-1.3.1.tgz"
@@ -672,6 +686,17 @@ domutils@1.5.1, domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
+<<<<<<< HEAD
+domutils@^1.5.1:
+  version "1.7.0"
+  resolved "https://registry.npmjs.org/domutils/-/domutils-1.7.0.tgz"
+  integrity sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg==
+  dependencies:
+    dom-serializer "0"
+    domelementtype "1"
+
+=======
+>>>>>>> 48d9129726cf29fd62eb5f3a2aac2e64e8eb6d71
 domutils@^2.8.0:
   version "2.8.0"
   resolved "https://registry.npmjs.org/domutils/-/domutils-2.8.0.tgz"
@@ -1004,9 +1029,15 @@ hexo-server@^3.0.0:
     serve-static "^1.14.1"
 
 hexo-theme-aurora@^1.1.0:
+<<<<<<< HEAD
+  version "1.5.5"
+  resolved "https://registry.npmjs.org/hexo-theme-aurora/-/hexo-theme-aurora-1.5.5.tgz"
+  integrity sha512-czgkgFH8VisS5qly6eecUUfB/2GF64l5AVBYjmLJ0Qp0ryZO/B4iD7yRDwWd/vmgFODKt4KNLdtvGqEj5TGG9g==
+=======
   version "1.1.0"
   resolved "https://registry.npmjs.org/hexo-theme-aurora/-/hexo-theme-aurora-1.1.0.tgz"
   integrity sha512-S6JHZxJYBHAs4amZcpRzA6Vo0U579aHn2MqlATyiBN9LoBgu58WKfkGEPOlW3uzrrvt73wgJEHT1ks9ZLt0xHg==
+>>>>>>> 48d9129726cf29fd62eb5f3a2aac2e64e8eb6d71
   dependencies:
     axios "^0.21.1"
     core.js "^0.4.2"
@@ -1931,6 +1962,14 @@ tr46@^3.0.0:
 
 truncate-html@^1.0.4:
   version "1.0.4"
+  resolved "https://registry.npmjs.org/truncate-html/-/truncate-html-1.0.4.tgz"
+  integrity sha512-FpDAlPzpJ3jlZiNEahRs584FS3jOSQafgj4cC9DmAYPct6uMZDLY625+eErRd43G35vGDrNq3i7b4aYUQ/Bxqw==
+  dependencies:
+    "@types/cheerio" "^0.22.8"
+    cheerio "0.22.0"
+
+truncate-html@^1.0.4:
+  version "1.0.4"
   resolved "https://registry.yarnpkg.com/truncate-html/-/truncate-html-1.0.4.tgz#268de7ba2650d697d748f1692a78197a88886e9d"
   integrity sha512-FpDAlPzpJ3jlZiNEahRs584FS3jOSQafgj4cC9DmAYPct6uMZDLY625+eErRd43G35vGDrNq3i7b4aYUQ/Bxqw==
   dependencies:
@@ -2027,6 +2066,14 @@ vue3-click-away@^1.1.0:
   resolved "https://registry.npmjs.org/vue3-click-away/-/vue3-click-away-1.2.4.tgz"
   integrity sha512-O9Z2KlvIhJT8OxaFy04eiZE9rc1Mk/bp+70dLok68ko3Kr8AW5dU+j8avSk4GDQu94FllSr4m5ul4BpzlKOw1A==
 
+<<<<<<< HEAD
+vue3-lazy@^1.0.0-alpha.1:
+  version "1.0.0-alpha.1"
+  resolved "https://registry.npmjs.org/vue3-lazy/-/vue3-lazy-1.0.0-alpha.1.tgz"
+  integrity sha512-dpjpKK4DC5q+wZVtS/VY3X6pYBJHxRmYanr20s39RB6o6fvbneQ/DNuz37bipYfEdrEvbSZ95Y2SCexuznQNrQ==
+
+=======
+>>>>>>> 48d9129726cf29fd62eb5f3a2aac2e64e8eb6d71
 vue3-scroll-spy@^1.0.8:
   version "1.0.8"
   resolved "https://registry.npmjs.org/vue3-scroll-spy/-/vue3-scroll-spy-1.0.8.tgz"
