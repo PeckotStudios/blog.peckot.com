@@ -150,9 +150,9 @@ gitalk:
 # Valine comment plugin (recommended!)
 # see https://valine.js.org/quickstart.html
 valine:
-  enable: false
-  app_id:
-  app_key:
+  enable: true
+  app_id: UYlkP4sIVCZHzNCbntJHj3Kw-MdYXbMMI
+  app_key: zqRAvOEBsB3zWQMXqJHG2EG2
   avatar: ''
   placeholder: Leave your thoughts behind~
   visitor: true
@@ -177,7 +177,7 @@ copy_protection:
     cn: 本文来自于
     en: Article is from
   license:
-    cn: 博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议
+    cn: 博客内容在 CC BY-NC-SA 4.0 非商业性协议下共享
     en: This content is shared under the CC BY-NC-SA 4.0 protocol (Non-Commercial)
 
 #! ---------------------------------------------------------------
