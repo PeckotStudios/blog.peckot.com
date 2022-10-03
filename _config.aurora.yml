@@ -38,6 +38,22 @@ authors:
     socials:
       github: 'https://github.com/Pectics'
       bilibili: 'https://space.bilibili.com/637416352'
+  Bill_Zhong:
+    name: Bill_Zhong
+    avatar: https://q1.qlogo.cn/g?b=qq&nk=3492772281&s=640
+    link: https://github.com/Pectics
+    description: '不过是一个普通的高中生啦~'
+    socials:
+      github: 'https://github.com/Pectics'
+      bilibili: 'https://space.bilibili.com/637416352'
+  zhanshenPXW:
+    name: zhanshenPXW
+    avatar: https://q1.qlogo.cn/g?b=qq&nk=229131894&s=640
+    link: https://github.com/Pectics
+    description: '不过是一个普通的高中生啦~'
+    socials:
+      github: 'https://github.com/Pectics'
+      bilibili: 'https://space.bilibili.com/637416352'
   ##! example
   # TriDiamond:
   #   name: TriDiamond
@@ -55,13 +71,22 @@ menu:
   About: true
   Tags: true
   Archives: true
+  Peckot:
+    name: '官网'
+    path: 'https://peckot.com'
+  PeckotDocs:
+    name: '文档'
+    path: 'https://docs.peckot.com'
+  PeckotMC:
+    name: 'PeckotMC'
+    path: 'https://mc.peckot.com'
 
 #! ---------------------------------------------------------------
 #! Theme Config
 #! @docs https://aurora.tridiamond.tech/guide/theme.html
 #! ---------------------------------------------------------------
 theme:
-  dark_mode: true
+  dark_mode: 'auto'
   profile_shape: circle # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
