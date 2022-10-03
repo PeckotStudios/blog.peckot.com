@@ -159,8 +159,8 @@ gitalk:
 # see https://valine.js.org/quickstart.html
 valine:
   enable: true
-  app_id: UYlkP4sIVCZHzNCbntJHj3Kw-MdYXbMMI
-  app_key: zqRAvOEBsB3zWQMXqJHG2EG2
+  app_id: 5pwmstzpFiGiT6WWsi0C8d6C-gzGzoHsz
+  app_key: 1ndRfppe52TVuqQ6pHJ2q7BL
   avatar: 'https://peckot.com/favicon.svg'
   placeholder: 在此留下你的想法吧~
   visitor: true
