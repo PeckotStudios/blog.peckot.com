@@ -134,14 +134,15 @@ site_meta:
 
 # For local development only!
 gitalk:
-  enable: false
+  enable: true
   autoExpand: true
-  clientID: ''
-  clientSecret: ''
-  repo: 'dev-blog-comments'
-  owner: 'TriDiamond'
-  admin: ['TriDiamond']
-  id: uid
+  clientID: 'd8d2f2928e369f83dc7c'
+  clientSecret: '6584b26d66ad355b123f5ca82655b9e82abf36ce'
+  repo: 'blog.peckot.com-comments'
+  owner: 'Peckot-Studios'
+  admin: ['Pectics', 'BillZhong2008']
+  # PeckotStudios0627.gitalk
+  id: dea8e1570ef7bcec587711874e9e2e2238b8a9f3
   language: cn
   distractionFreeMode: true
   recentComment: true
@@ -150,7 +151,7 @@ gitalk:
 # Valine comment plugin (recommended!)
 # see https://valine.js.org/quickstart.html
 valine:
-  enable: true
+  enable: false
   app_id: UYlkP4sIVCZHzNCbntJHj3Kw-MdYXbMMI
   app_key: zqRAvOEBsB3zWQMXqJHG2EG2
   avatar: ''
