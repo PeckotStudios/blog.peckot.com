@@ -30,8 +30,8 @@ site:
 #！ @docs https://aurora.tridiamond.tech/guide/authors.html
 #! ---------------------------------------------------------------
 authors:
-  Peckot-Bloggers:
-    name: Peckot Bloggers
+  Blog-Author:
+    name: Blog-Author
     avatar: https://peckot.com/favicon.svg
     link: https://github.com/orgs/Peckot-Studios/teams/peckot-bloggers
     description: 'Peckot Blog 的博文主要编写团队'

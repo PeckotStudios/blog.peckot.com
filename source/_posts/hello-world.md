@@ -5,7 +5,6 @@ tags:
 categories:
   - 官方消息
 cover: https://img1.imgtp.com/2022/10/03/9dMC79Wu.png
-author: Peckot-Bloggers
 ---
 
 # 欢迎来到 Peckot Blog!  
