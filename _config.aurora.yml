@@ -142,7 +142,7 @@ gitalk:
   owner: 'Peckot-Studios'
   admin: ['Pectics', 'BillZhong2008']
   # PeckotStudios0627.gitalk
-  id: uid
+  id: pathname
   language: zh-CN
   distractionFreeMode: false
   recentComment: true
