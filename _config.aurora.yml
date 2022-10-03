@@ -125,7 +125,7 @@ site_meta:
   favicon: https://peckot.com/favicon.svg
   description: 'Peckot Studios'' Official Blog Page.'
   keywords: 'Peckot Blog'
-  author: 'Pectics'
+  author: 'Peckot Studios'
 
 #! ---------------------------------------------------------------
 #! Plugins
@@ -196,10 +196,4 @@ aurora_bot:
 #! ---------------------------------------------------------------
 injects:
   scripts:
-    - |-
-      <script type="text/javascript">
-        document.getElementsByTagName('img').forEach(img => {
-          img.setAttribute('draggable', 'false');
-        });
-      </script>
   css:

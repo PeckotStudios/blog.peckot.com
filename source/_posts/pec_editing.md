@@ -3,7 +3,7 @@ title: Pectics' First Article
 tags:
   - Tag
 categories:
-  - Cate
+  - 个人文章
 cover: https://img1.imgtp.com/2022/10/03/9dMC79Wu.png
 author: Pectics
 ---
