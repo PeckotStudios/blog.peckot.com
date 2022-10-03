@@ -30,6 +30,14 @@ site:
 #！ @docs https://aurora.tridiamond.tech/guide/authors.html
 #! ---------------------------------------------------------------
 authors:
+  Peckot_Bloggers:
+    name: Peckot Bloggers
+    avatar: https://peckot.com/favicon.svg
+    link: https://github.com/orgs/Peckot-Studios/teams/peckot-bloggers
+    description: 'Peckot Blog 的博文主要编写团队'
+    socials:
+      github: 'https://github.com/orgs/Peckot-Studios/teams/peckot-bloggers'
+      bilibili: 'https://space.bilibili.com/1199517996'
   Pectics:
     name: Pectics
     avatar: https://q1.qlogo.cn/g?b=qq&nk=2671876934&s=640
@@ -125,7 +133,7 @@ site_meta:
   favicon: https://peckot.com/favicon.svg
   description: 'Peckot Studios'' Official Blog Page.'
   keywords: 'Peckot Blog'
-  author: 'Peckot Blog'
+  author: 'Peckot_Bloggers'
 
 #! ---------------------------------------------------------------
 #! Plugins
@@ -135,17 +143,16 @@ site_meta:
 # For local development only!
 gitalk:
   enable: true
-  autoExpand: true
+  autoExpand: false
   clientID: 'd8d2f2928e369f83dc7c'
   clientSecret: '6584b26d66ad355b123f5ca82655b9e82abf36ce'
   repo: 'blog.peckot.com-comments'
   owner: 'Peckot-Studios'
   admin: ['BillZhong2008']
-  # PeckotStudios0627.gitalk
   id: pathname
   language: zh-CN
   distractionFreeMode: false
-  recentComment: true
+  recentComment: false
   proxy: ''
 
 # Valine comment plugin (recommended!)
