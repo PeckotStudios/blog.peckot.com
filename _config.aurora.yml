@@ -142,7 +142,7 @@ site_meta:
 
 # For local development only!
 gitalk:
-  enable: true
+  enable: false
   autoExpand: false
   clientID: 'd8d2f2928e369f83dc7c'
   clientSecret: '6584b26d66ad355b123f5ca82655b9e82abf36ce'
@@ -158,17 +158,17 @@ gitalk:
 # Valine comment plugin (recommended!)
 # see https://valine.js.org/quickstart.html
 valine:
-  enable: false
+  enable: true
   app_id: UYlkP4sIVCZHzNCbntJHj3Kw-MdYXbMMI
   app_key: zqRAvOEBsB3zWQMXqJHG2EG2
-  avatar: ''
-  placeholder: Leave your thoughts behind~
+  avatar: 'https://peckot.com/favicon.svg'
+  placeholder: 在此留下你的想法吧~
   visitor: true
-  lang: cn
-  avatarForce: false
-  meta: ['nick', 'mail']
+  lang: zh-CN
+  avatarForce: true
+  meta: ['你的昵称', '邮箱地址']
   requiredFields: []
-  admin: 'TriDiamond'
+  admin: 'Pectics'
   recentComment: true
 
 # Enable Busuanzi statistic plugin
