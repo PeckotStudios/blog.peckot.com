@@ -17,9 +17,9 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Peckot Blog
-  description: "ExampleSite description"
-  keywords: [Blog, Peckot, PaperMod]
-  author: ["Pectics"]
+  description: "Peckot Blog by Peckot Studios."
+  keywords: [Blog, Peckot, Peckot Blog, Peckot Studios, Pexil, PexilMC]
+  author: Peckot Blog Team
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006/01/02"
@@ -27,7 +27,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
