@@ -1,0 +1,11 @@
+[
+  {{ range first 3 .Site.RegularPages -}}
+  {
+    "title": "{{ .Title }}",
+    "date": "{{ .Date }}",
+    "url": "{{ .Permalink }}",
+    "summary": "{{ .Summary }}",
+    "content": "{{ .Content }}"
+  }{{ if not (last 3 .Site.RegularPages) }},{{ end }}
+  {{ end }}
+]
