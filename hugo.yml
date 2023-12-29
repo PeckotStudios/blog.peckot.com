@@ -1,7 +1,7 @@
 baseURL: https://blog.peckot.com/
 languageCode: zh-cn
 title: Peckot Blog
-theme: PaperMod
+theme: Peckot
 
 enableRobotsTXT: true
 buildDrafts: false
