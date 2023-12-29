@@ -4,6 +4,7 @@ date = 2023-12-29T20:37:05+08:00
 draft = false
 tags = ['测试']
 author = 'Pectics'
+description = '这是一个包含各种Markdown格式的示例文本。'
 cover.image = 'https://www.bing.com/th?id=OHR.BlueAmsterd_ZH-CN6960220'
 +++
 
