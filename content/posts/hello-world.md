@@ -4,6 +4,7 @@ date = 2023-12-29T20:37:05+08:00
 draft = false
 tags = ['测试']
 author = 'Pectics'
+cover.image = 'https://www.bing.com/th?id=OHR.BlueAmsterd_ZH-CN6960220'
 +++
 
 # Hello World
