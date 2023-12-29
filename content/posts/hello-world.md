@@ -4,8 +4,8 @@ date = 2023-12-29T20:37:05+08:00
 draft = false
 tags = ['测试']
 author = 'Pectics'
-description = '这是一个包含各种Markdown格式的示例文本。'
-cover.image = 'https://www.bing.com/th?id=OHR.BlueAmsterd_ZH-CN6960220'
+description = '这是一条包含各种Markdown格式的示例文章。'
+cover.image = 'https://cn.bing.com/th?id=OHR.CastleriggStoneCircleUK_ZH-CN1174541384_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp'
 +++
 
 # Hello World
@@ -38,7 +38,7 @@ def hello_world():
 
 ## 图片
 
-![图片描述](https://www.bing.com/th?id=OHR.BlueAmsterdam_EN-US6868017848_1920x1080.webp&qlt=50)
+![图片描述](https://cn.bing.com/th?id=OHR.CastleriggStoneCircleUK_ZH-CN1174541384_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp)
 
 ## 粗体和斜体
 

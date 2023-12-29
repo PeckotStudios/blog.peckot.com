@@ -97,7 +97,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/PeckotStudios/blog.peckot.com/blob/main"
+    URL: "https://github.com/PeckotStudios/blog.peckot.com/blob/main/content"
     Text: "编辑此文章" # edit text
     appendFilePath: true # to append file path to Edit link
 
