@@ -3,3 +3,23 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+
+.with-cover-background {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cover-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Adjust background properties as needed */
+    background-size: cover;
+    background-position: center center;
+    /* You can use the background-image property to set the background image */
+    /* background-image: url('path/to/your/image.jpg'); */
+  }
+  
