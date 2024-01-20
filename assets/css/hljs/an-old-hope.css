@@ -1,12 +1,18 @@
 body.dark pre code.hljs,
-body.dark code.hljs {
+body.dark code.hljs,
+body.dark code {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-    display: block;
     overflow-x: auto;
     padding: 1em
 }
 
+body.dark pre code.hljs,
 body.dark code.hljs {
+    display: block;
+}
+
+body.dark code.hljs,
+body.dark code {
     padding: 3px 5px
 }
 

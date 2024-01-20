@@ -1,11 +1,18 @@
-body:not(.dark) pre code.hljs {
-    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
-    display: block;
+body:not(.dark) pre code.hljs,
+body:not(.dark) code.hljs,
+body:not(.dark) code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
     overflow-x: auto;
     padding: 1em
 }
 
+body:not(.dark) pre code.hljs,
 body:not(.dark) code.hljs {
+    display: block;
+}
+
+body:not(.dark) code.hljs,
+body:not(.dark) code {
     padding: 3px 5px
 }
 
