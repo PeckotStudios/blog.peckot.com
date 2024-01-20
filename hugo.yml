@@ -45,15 +45,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "favicon.svg"
+    favicon16x16: "favicon.svg"
+    favicon32x32: "favicon.svg"
+    apple_touch_icon: "favicon.svg"
+    safari_pinned_tab: "favicon.svg"
 
   label:
     text: "Peckot Blog"
-    icon: /apple-touch-icon.png
+    icon: $hard code modified$
     iconHeight: 35
 
   # profile-mode
@@ -61,7 +61,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Peckot Blog
     subtitle: "无求一生光辉，唯望斗志不断。"
-    imageUrl: logo.svg
+    imageUrl: $hard code modified$
     imageWidth: 120
     imageHeight: 120
     imageTitle: Peckot Studios
