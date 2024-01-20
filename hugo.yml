@@ -1,7 +1,8 @@
 baseURL: https://blog.peckot.com/
 languageCode: zh-cn
+defaultContentLanguage: zh-cn
 title: Peckot Blog
-theme: PaperMod
+theme: 
 
 enableRobotsTXT: true
 enableGitInfo: true
@@ -17,6 +18,9 @@ minify:
 
 frontmatter:
   lastmod: ["lastmod", ":git", ":fileModTime", "date"]
+
+outputs:
+
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
