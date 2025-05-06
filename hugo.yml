@@ -1,7 +1,7 @@
-baseURL: https://blog.peckot.com/
+baseURL: https://blog.pectics.me/
 languageCode: zh-cn
 defaultContentLanguage: zh-cn
-title: Peckot Blog
+title: Pectics Blog
 theme: 
 
 enableRobotsTXT: true
@@ -21,13 +21,12 @@ frontmatter:
 
 outputs:
 
-
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Peckot Blog
-  description: "Peckot Blog by Peckot Studios."
-  keywords: [Blog, Peckot, Peckot Blog, Peckot Studios, Pexil, PexilMC]
-  author: Peckot Blog Team
+  title: "Pectics Blog"
+  description: "Pectics 的个人博客页面"
+  keywords: [Pectics, Blog, Peckot, Peckot Blog, Peckot Studios]
+  author: Pectics
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006/01/02"
@@ -53,43 +52,41 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "favicon.svg"
-    favicon16x16: "favicon.svg"
-    favicon32x32: "favicon.svg"
-    apple_touch_icon: "favicon.svg"
-    safari_pinned_tab: "favicon.svg"
+    favicon: "favicon.jpg"
+    favicon16x16: "favicon.jpg"
+    favicon32x32: "favicon.jpg"
+    apple_touch_icon: "favicon.jpg"
+    safari_pinned_tab: "favicon.jpg"
 
   label:
-    text: "Peckot Blog"
-    icon: $hard code modified$
+    text: "Pectics Blog"
+    icon: favicon.jpg
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Peckot Blog
+    title: Pectics
     subtitle: "无求一生光辉，唯望斗志不断。"
-    imageUrl: $hard code modified$
+    imageUrl: favicon.jpg
     imageWidth: 120
     imageHeight: 120
-    imageTitle: Peckot Studios
+    imageTitle: Pectics
     buttons:
       - name: 阅读文章
         url: posts
       - name: 查看标签
         url: tags
-      - name: 访问官网
+      - name: Peckot
         url: https://peckot.com
 
   socialIcons:
-    - name: QQ
-      url: https://peckot.com/f/joinus/qq
-    - name: QQGuild
-      url: https://peckot.com/f/joinus/guild
+    - name: qq
+      url: https://qm.qq.com/q/oMZH4JGBAQ
     - name: bilibili
-      url: https://space.bilibili.com/637416352
+      url: https://space.bilibili.com/1199517996
     - name: Github
-      url: "https://github.com/PeckotStudios"
+      url: "https://github.com/Pectics"
 
   analytics:
     google:
@@ -105,7 +102,7 @@ params:
     hiddenInSingle: false # hide on single page
 
   editPost:
-    URL: "https://github.com/PeckotStudios/blog.peckot.com/blob/main/content"
+    URL: "https://github.com/Pectics/blog.pectics.me/blob/main/content"
     Text: "编辑此文章" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -130,17 +127,13 @@ menu:
       url: /tags/
       weight: 20
     - identifier: web
-      name: 官网
+      name: Peckot
       url: https://peckot.com
       weight: 30
-    - identifier: docs
-      name: 文档
-      url: https://docs.peckot.com
-      weight: 40
     - identifier: mc
       name: PexilMC
       url: https://pexil.cn
-      weight: 50
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

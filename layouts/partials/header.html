@@ -45,7 +45,7 @@
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
-                <!-- {{- if site.Params.label.icon }}
+                {{- if site.Params.label.icon }}
                 {{- $img := resources.Get site.Params.label.icon }}
                 {{- if $img }}
                     {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
@@ -68,10 +68,7 @@
                 {{- end -}}
                 {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
                     {{ site.Params.label.iconSVG | safeHTML }}
-                {{- end -}} -->
-                <svg draggable="false" alt="logo" height="{{- site.Params.label.iconHeight | default "30" -}}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" fill="none" fill-rule="evenodd">
-                    <path fill="var(--primary)" d="M40 110l0-70 10 0 0-10 40 0 0 10 10 0 0 40-10 0 0 10-20 0 0-20 10 0 0-20-20 0 0 60zM0 70a1 1 0 00140 0 1 1 0 00-140 0z" />
-                </svg>
+                {{- end -}}
                 {{- $label_text -}}
             </a>
             {{- end }}
